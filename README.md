@@ -71,4 +71,6 @@ JMH-Visual-chart尚处于实验性质，我花了几个小时实现了「一组�
 ### JMH
 [OpenJDK Code Tools: jmh](http://openjdk.java.net/projects/code-tools/jmh/)
 
+[Java Microbenchmark Harness Tutorials](http://tutorials.jenkov.com/java-performance/jmh.html)
+
 
