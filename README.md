@@ -4,7 +4,7 @@
 **一组参数不同方法维度** 是指参数在不同取值组合情况下，不同方法的基准测试结果的比较。
 
 
-## QuickStart
+### QuickStart
 
 进入[可视化页面](http://deepoove.com/jmh-visual-chart/)，支持上传JMH的JSON格式结果，可以通过以下方法获取JSON文件：
 ```java
