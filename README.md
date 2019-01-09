@@ -14,7 +14,7 @@ Options opt = new OptionsBuilder()
   .resultFormat(ResultFormatType.JSON).build();
 ```
 
-上传文件后直接渲染成图表，比如在参数组合(length = 10)、(length = 50)和(length = 100)的每种取值情况下，`testStringAdd`和`testStringBuilderAdd`执行结果的比较图表：
+上传文件后直接渲染成图表，比如在参数组合(length = 10)、(length = 50)和(length = 100)的每种取值情况下，方法`testStringAdd`和`testStringBuilderAdd`执行性能的比较图表：
 
 ![](./JMH-Horizontal.png)
 
