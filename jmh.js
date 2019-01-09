@@ -97,6 +97,7 @@ function convert(jmh_json, horizontal) {
         } else {
             xAxis_name = 'Param';
             xAxis_data = ['default'];
+            xAxis_value = 'default';
         }
 
         // map
