@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="JMH Visual Chart">
+    <meta name="keywords" content="JMH,visual,chart,report">
+    <meta name="author" content="Sayi">
+    <title>JMH Visual Chart</title>
+    <link rel="stylesheet" href="demo.css" />
+    <script src="echarts.min.js"></script>
+    <script src="jmh.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>JMH Visual Chart</h1>
+    </header>
+    <div class="article">
+        <div id="toolbox">
+            <div id="upload">
+                <svg t="1546918477124" class="icon" style="width: 24px; height: 24px;vertical-align: middle;fill: currentColor;overflow: hidden;"
+                    viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9448">
+                    <path d="M819.2 420.26666666c-32-147.2-153.6-256-307.2-256-121.6 0-224 70.4-275.2 172.8-128 19.2-224 121.6-224 256 0 140.8 115.2 256 249.6 256h537.6c115.2 0 204.8-96 204.8-211.2 6.4-115.2-83.2-211.2-185.6-217.6m-224 128v172.8H428.8V548.26666666H307.2L512 337.06666666l204.8 211.2H595.2z m0 0"
+                        fill="#1ABC9C" p-id="9449" data-spm-anchor-id="a313x.7781069.0.i5"></path>
+                </svg>
+                Upload JMH json file
+                <input id="json_file" type="file" onchange='onChooseFile(event)' title="Select JMH .json file" accept=".json">
+            </div>
+            <div id="switch_hv" onclick="switch_hv()" title="switch horizontal or vertial chart">
+                <svg t="1546925698883" class="icon" style="width: 24px; height: 24px;vertical-align: middle;fill: currentColor;overflow: hidden;"
+                    viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12338"
+                    data-spm-anchor-id="a313x.7781069.0.i7">
+                    <path d="M512 926C283.7 926 98 740.3 98 512S283.7 98 512 98s414 185.7 414 414-185.7 414-414 414z m0-793.5c-209.3 0-379.5 170.2-379.5 379.5S302.7 891.5 512 891.5 891.5 721.3 891.5 512 721.3 132.5 512 132.5z"
+                        p-id="12339"></path>
+                    <path d="M597.2 266.3c-8-5.1-18.7-2.8-23.8 5.3-5.1 8-2.8 18.7 5.3 23.8l85.4 54.5H339.4c-28.5 0-51.7 23.2-51.7 51.7v155.3c0 9.5 7.7 17.2 17.2 17.2s17.2-7.7 17.2-17.2V401.5c0-9.5 7.7-17.2 17.2-17.2h381.9c9.5 0 17.2-7.7 17.2-17.2 0-4.8-7.1-10.7-12.5-16.8-11.5-13.1-128.7-84-128.7-84zM426.8 757.7c8 5.1 18.7 2.8 23.8-5.3 5.1-8 2.8-18.7-5.3-23.8L360 674.2h324.5c28.5 0 51.7-23.2 51.7-51.7V467.1c0-9.5-7.7-17.2-17.2-17.2s-17.2 7.7-17.2 17.2v155.3c0 9.5-7.7 17.2-17.2 17.2H302.7c-9.5 0-17.2 7.7-17.2 17.2 0 4.8 7.1 10.7 12.5 16.8 11.6 13.2 128.8 84.1 128.8 84.1z"
+                        p-id="12340"></path>
+                </svg>
+            </div>
+        </div>
+        <div id="main"></div>
+    </div>
+
+    <script type="text/javascript">
+        myChart = echarts.init(document.getElementById('main'), 'default' === getParameterByName('theme') ? 'default' : 'dark');
+    </script>
+</body>
+
+</html>
