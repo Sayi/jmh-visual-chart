@@ -69,6 +69,8 @@ JMH-Visual-chart尚处于实验性质，我花了几个小时实现了「一组�
 当有需要的时候，我会回来扩展更多 **维度** 和更多 **样式** 的图表。
 
 ### JMH
+[《JMH基准测试和JMH-Visual-chart可视化》](https://github.com/Sayi/sayi.github.com/issues/68)
+
 [OpenJDK Code Tools: jmh](http://openjdk.java.net/projects/code-tools/jmh/)
 
 [Java Microbenchmark Harness Tutorials](http://tutorials.jenkov.com/java-performance/jmh.html)
