@@ -47,7 +47,7 @@ public class MyBenchmark {
   }
 }
 ```
-进入[可视化页面](http://deepoove.com/jmh-visual-chart/)，上传JMH的JSON格式结果文件result.json([下载result.json示例文件](result.json))进行图表渲染：
+进入[可视化页面](http://deepoove.com/jmh-visual-chart/)，上传JMH的JSON格式结果文件result.json([下载result.json示例文件](http://deepoove.com/jmh-visual-chart/result.json))进行图表渲染：
 
 ![](./JMH-Horizontal.png)
 
